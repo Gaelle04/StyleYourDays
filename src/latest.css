@@ -17,7 +17,8 @@ body{
 
 .categories img{
     
-    width:500px;
+    width:480px;
+  
     
 
 }
@@ -139,7 +140,7 @@ body{
   }
 
   .favicon{
-    margin-left: 1650px;
+    margin-left: 1500px;
     width:20px;
     height:20px;
   }
