@@ -1,2 +1,0 @@
-# StyleYourDays
-fashion website
