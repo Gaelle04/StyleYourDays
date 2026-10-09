@@ -1,0 +1,18 @@
+.hero {
+  min-height: 100svh;
+  background: url('/images/webuu.webp') center / cover;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: grid;
+  place-items: center;
+  flex: 1;
+  padding: 3rem 1rem;
+}
+h1 {
+  font-size: clamp(3.5rem, 8vw, 6.25rem);
+  text-align: center;
+  text-shadow: 0 2px 12px #0005;
+}
