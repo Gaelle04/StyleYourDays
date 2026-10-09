@@ -1,0 +1,19 @@
+<header [class.light]="light()">
+  <a class="brand" routerLink="/" aria-label="SYD home"
+    ><img src="images/favicon.ico" alt="" width="28" height="28" /> SYD's Home Page</a
+  >
+  <nav aria-label="Main navigation">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      ariaCurrentWhenActive="page"
+      >Home</a
+    >
+    <a routerLink="/foryou" routerLinkActive="active" ariaCurrentWhenActive="page">For You</a>
+    <a routerLink="/latesttrends" routerLinkActive="active" ariaCurrentWhenActive="page"
+      >Latest Trends</a
+    >
+    <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
+  </nav>
+</header>
